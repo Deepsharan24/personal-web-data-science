@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project Page</title>
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Personal Website</h2>
+            <div class="toggle"></div>
+        </header>
+        
+        
+        <video style = width:100% src="pexels-c-technical-6153453.mp4"muted loop autoplay></video>
+        <div class="overlay">
+            <img border-radius = "5px" style = width:160% height=220% src="IMG-20220302-WA0017.jpg"> 
+        </div>
+        <div class="text">
+            
+            <h4>Created By</h4>
+            <h3>Deep Sharan</h3>
+            <h4>Regression Project on a Dataset</h4>
+            <h4>Dataset - Black Friday</h4>
+            <p>Black Friday is a colloquial term for the Friday after Thanksgiving in the United States. It traditionally marks the start of the Christmas shopping season in the United States. Many stores offer highly promoted sales at discounted prices and often open early, sometimes as early as midnight or even on Thanksgiving.</p>
+            <a href="https://github.com/Deepsharan24/Black-Friday-Regression/blob/main/Project%20Black%20Friday%20Regression.ipynb">Data Science Project</a>
+        </div>
+        <ul class="social">
+            <li><a href='https://github.com/Deepsharan24'><img style=width:60px src="GitHub-Mark-Light-120px-plus.png" alt=""></a></li>
+            <li><a href='https://www.linkedin.com/in/deep-sharan-a499a1211/'><img style=width:60px src="linkedin-logo-png-2048.png" alt=""></a></li>
+            <li><a href='https://www.instagram.com/deep__sharan/'><img style=width:60px src="pngfind.com-instagram-png-white-2773517.png" alt=""></a></li>
+        </ul>
+    </section>
+    <div class="menu"> 
+        <ul>
+            <p>Contacts Details :</p>
+            <h></h>
+            <p>Class - CSE(DS) 
+                2nd Year </p>
+            <p>Roll No - 2000321540025</p>
+            <p>Phone - 7065284403</p>
+            
+            <!-- <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li> -->
+        </ul>
+    </div> 
+    <script>
+        const menutoggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+        
+        menutoggle.addEventListener('click', function(){
+            menutoggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+    </script>
+</body>
+
+</html>
